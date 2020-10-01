@@ -53,7 +53,7 @@ pip3 install --user adafruit-nrfutil
                 "-t",
                 "GCC_ARM",
                 "-m",
-                "ADAFRUIT_NRF52840_FEATHER"
+                "ADAFRUIT-NRF52840-FEATHER"
             ]
         },
         {
@@ -68,8 +68,8 @@ pip3 install --user adafruit-nrfutil
                 "--sd-req",
                 "0x00B6",
                 "--application",
-                "${workspaceFolder}\\BUILD\\ADAFRUIT_NRF52840_FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex",
-                "${workspaceFolder}\\BUILD\\ADAFRUIT_NRF52840_FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip"
+                "${workspaceFolder}\\BUILD\\ADAFRUIT-NRF52840-FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex",
+                "${workspaceFolder}\\BUILD\\ADAFRUIT-NRF52840-FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip"
             ],
             "presentation": {
                 "echo": true,
@@ -89,7 +89,7 @@ pip3 install --user adafruit-nrfutil
                 "dfu",
                 "serial",
                 "-pkg",
-                "${workspaceFolder}\\BUILD\\ADAFRUIT_NRF52840_FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip",
+                "${workspaceFolder}\\BUILD\\ADAFRUIT-NRF52840-FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip",
                 "-p",
                 "COM7",
                 "-b",
