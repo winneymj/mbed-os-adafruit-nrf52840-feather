@@ -20,11 +20,11 @@ This repository includes blinky.cpp as an example application to demonstrate how
 You can follow these steps to import and compile with Mbed CLI:
 
 ```text
-mbed import https://github.com/winneymj/mbed-os-adafruit-nrf52840-feather.git
-mbed compile -t GCC_ARM -m ADAFRUIT-NRF52840-FEATHER
+mbed import https://github.com/winneymj/mbed-os-ADAFRUIT-NRF52840-FEATHER.git
+mbed compile -t GCC_ARM -m ADAFRUIT_NRF52840_FEATHER
 ```
 
-I suggest you rename the created directory "mbed-os-adafruit-nrf52840-feather" to be more reflective of your project.
+I suggest you rename the created directory "mbed-os-ADAFRUIT-NRF52840-FEATHER" to be more reflective of your project.
 
 ## Building and Flash board in Visual Studio Code
 
@@ -55,7 +55,7 @@ pip3 install --user adafruit-nrfutil
                 "-t",
                 "GCC_ARM",
                 "-m",
-                "ADAFRUIT-NRF52840-FEATHER"
+                "ADAFRUIT_NRF52840_FEATHER"
             ]
         },
         {
@@ -70,8 +70,8 @@ pip3 install --user adafruit-nrfutil
                 "--sd-req",
                 "0x00B6",
                 "--application",
-                "${workspaceFolder}\\BUILD\\ADAFRUIT-NRF52840-FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex",
-                "${workspaceFolder}\\BUILD\\ADAFRUIT-NRF52840-FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip"
+                "${workspaceFolder}\\BUILD\\ADAFRUIT_NRF52840_FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex",
+                "${workspaceFolder}\\BUILD\\ADAFRUIT_NRF52840_FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip"
             ],
             "presentation": {
                 "echo": true,
@@ -91,7 +91,7 @@ pip3 install --user adafruit-nrfutil
                 "dfu",
                 "serial",
                 "-pkg",
-                "${workspaceFolder}\\BUILD\\ADAFRUIT-NRF52840-FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip",
+                "${workspaceFolder}\\BUILD\\ADAFRUIT_NRF52840_FEATHER\\GCC_ARM-RELEASE\\${workspaceFolderBasename}_application.hex.zip",
                 "-p",
                 "COM7",
                 "-b",
