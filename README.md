@@ -24,6 +24,8 @@ mbed import https://github.com/winneymj/mbed-os-adafruit-nrf52840-feather.git
 mbed compile -t GCC_ARM -m ADAFRUIT-NRF52840-FEATHER
 ```
 
+I suggest you rename the created directory "mbed-os-adafruit-nrf52840-feather" to be more reflective of your project.
+
 ## Building and Flash board in Visual Studio Code
 
 **prerequisites:**
